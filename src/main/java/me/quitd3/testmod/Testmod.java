@@ -21,8 +21,6 @@ public class Testmod {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public Testmod(IEventBus modEventBus, ModContainer modContainer){
-        modEventBus.addListener(this::commonSetup);
-        NeoForge.EVENT_BUS.register(this);
         Testmod.LOGGER.info("Testmod initialized");
 
         ModCreativeTab.register(modEventBus);
@@ -32,8 +30,6 @@ public class Testmod {
         modEventBus.addListener(this::addCreative);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
-    }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
@@ -45,9 +41,4 @@ public class Testmod {
             event.accept(ModBlock.BISMUTH_ORE);
         }
     }
-
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-    }
-
 }

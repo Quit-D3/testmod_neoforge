@@ -22,18 +22,19 @@ public class ModCreativeTab {
                         output.accept(ModItem.BISMUTH);
                         output.accept(ModItem.RAW_BISMUTH);
 
+                        output.accept(ModItem.CHISEL);
                     }).build());
 
     public static final Supplier<CreativeModeTab> BISMUTH_BLOCK_TAB = CREATIVE_MODE_TAB.register(
-            "bismuth_block_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlock.BISMUTH_BLOCK))
+            "bismuth_block_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlock.BISMUTH_BLOCK.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(Testmod.MOD_ID,"bismuth_item_tab"))
                     .title(Component.translatable("creativetab.testmod.bismuth_block"))
                     .displayItems((itemDisplayParameters,output) ->{
                         output.accept(ModBlock.BISMUTH_BLOCK);
                         output.accept(ModBlock.BISMUTH_ORE);
                         output.accept(ModBlock.BISMUTH_DEEPSLATE_ORE);
-
                     }).build());
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
     }
