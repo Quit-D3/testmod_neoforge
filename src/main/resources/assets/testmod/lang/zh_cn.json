@@ -3,9 +3,9 @@
   "item.testmod.raw_bismuth": "粗铋",
   "item.testmod.chisel": "凿子",
 
-  "item.tutorialmod.radish": "Radish",
-  "item.tutorialmod.frostfire_ice": "Frostfire Ice",
-  "item.tutorialmod.starlight_ashes": "Starlight Ashes",
+  "item.testmod.radish": "白萝卜",
+  "item.testmod.frostfire_ice": "可燃冰",
+  "item.testmod.starlight_ashes": "星光灰烬",
 
   "item.tutorialmod.bismuth_sword": "Bismuth Sword",
   "item.tutorialmod.bismuth_pickaxe": "Bismuth Pickaxe",
@@ -33,7 +33,7 @@
   "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
 
   "item.tutorialmod.radish_seeds": "Radish Seeds",
-  "item.tutorialmod.goji_berries": "Goji Berries",
+  "item.testmod.goji_berries": "枸杞",
 
   "item.tutorialmod.gecko_spawn_egg": "Gecko Spawn Egg",
 
@@ -48,7 +48,7 @@
   "block.tutorialmod.bismuth_end_ore": "Bismuth End Ore",
   "block.tutorialmod.bismuth_nether_ore": "Bismuth Nether Ore",
 
-  "block.tutorialmod.magic_block": "Magic Block",
+  "block.testmod.magic_block": "魔法方块",
 
   "block.tutorialmod.bismuth_stairs": "Bismuth Stairs",
   "block.tutorialmod.bismuth_slab": "Bismuth Slab",

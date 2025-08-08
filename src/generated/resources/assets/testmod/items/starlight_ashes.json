@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "tutorialmod:item/starlight_ashes"
+    "model": "testmod:item/starlight_ashes"
   }
 }

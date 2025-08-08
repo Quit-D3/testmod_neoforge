@@ -3,9 +3,9 @@
   "item.testmod.raw_bismuth": "Raw Bismuth",
   "item.testmod.chisel": "Chisel",
 
-  "item.tutorialmod.radish": "Radish",
-  "item.tutorialmod.frostfire_ice": "Frostfire Ice",
-  "item.tutorialmod.starlight_ashes": "Starlight Ashes",
+  "item.testmod.radish": "Radish",
+  "item.testmod.frostfire_ice": "Frostfire Ice",
+  "item.testmod.starlight_ashes": "Starlight Ashes",
 
   "item.tutorialmod.bismuth_sword": "Bismuth Sword",
   "item.tutorialmod.bismuth_pickaxe": "Bismuth Pickaxe",
@@ -33,7 +33,7 @@
   "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
 
   "item.tutorialmod.radish_seeds": "Radish Seeds",
-  "item.tutorialmod.goji_berries": "Goji Berries",
+  "item.testmod.goji_berries": "Goji Berries",
 
   "item.tutorialmod.gecko_spawn_egg": "Gecko Spawn Egg",
 
@@ -48,7 +48,7 @@
   "block.tutorialmod.bismuth_end_ore": "Bismuth End Ore",
   "block.tutorialmod.bismuth_nether_ore": "Bismuth Nether Ore",
 
-  "block.tutorialmod.magic_block": "Magic Block",
+  "block.testmod.magic_block": "Magic Block",
 
   "block.tutorialmod.bismuth_stairs": "Bismuth Stairs",
   "block.tutorialmod.bismuth_slab": "Bismuth Slab",

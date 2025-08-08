@@ -26,7 +26,6 @@ public class ChiselItem extends Item {
                     Blocks.IRON_BLOCK, Blocks.STONE,
                     Blocks.NETHERRACK, ModBlock.BISMUTH_BLOCK.get()
             );
-
     public ChiselItem(Properties properties) {
         super(properties);
     }

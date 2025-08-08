@@ -1,6 +1,7 @@
 package me.quitd3.testmod.block;
 
 import me.quitd3.testmod.Testmod;
+import me.quitd3.testmod.block.custom.MagicBlock;
 import me.quitd3.testmod.item.ModItem;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -34,6 +35,11 @@ public class ModBlock{
                     .strength(1f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock(
+            "magic_block", (properties -> new MagicBlock(properties
+                    .strength(2f)
+                    .requiresCorrectToolForDrops())));
 
     private static <T extends Block>DeferredBlock<T>registerBlock(String name, Function<BlockBehaviour.Properties,T> function){
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);

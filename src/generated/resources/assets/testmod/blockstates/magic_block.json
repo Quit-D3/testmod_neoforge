@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tutorialmod:block/magic_block"
+      "model": "testmod:block/magic_block"
     }
   }
 }
